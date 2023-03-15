@@ -5,7 +5,7 @@
 
 ## Build generated
 build/
-DerivedData
+DerivedData/
 
 ## Various settings
 *.pbxuser
@@ -35,6 +35,9 @@ xcshareddata
 .DS_Store
 /.build
 /Packages
+.swiftpm/config/registries.json
+.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+.netrc
 
 ## Carthage
 Carthage/Build
