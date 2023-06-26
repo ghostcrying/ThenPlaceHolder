@@ -15,7 +15,13 @@ pod 'ThenPlaceHolder'
 #### Carthage
 
 ```
-git "ghostcrying/ThenPlaceHolder"
+github "ghostcrying/ThenPlaceHolder"
+```
+
+###### 校验Carthage
+
+```
+carthage build --no-skip-current --platform ios --use-xcframeworks
 ```
 
 
@@ -27,13 +33,3 @@ https://github.com/ghostcrying/ThenPlaceHolder.git
 ```
 
 
-
-#### 校验Carthage
-
-```
-carthage build --no-skip-current --platform ios --use-xcframeworks
-```
-
-
-
-## 

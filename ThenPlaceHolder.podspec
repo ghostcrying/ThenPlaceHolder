@@ -9,11 +9,12 @@ Pod::Spec.new do |s|
   EOS
   s.homepage     = "https://github.com/ghostcrying/ThenPlaceHolder"
   s.author       = { "ghost" => "czios1501@gmail.com" }
-  s.ios.deployment_target = '11.0'
   s.source       = { :git => "https://github.com/ghostcrying/ThenPlaceHolder.git", :tag => s.version }
+  
+  s.ios.deployment_target = '11.0'
   s.source_files = "Sources/**/*"
-  s.swift_version = '5.3'
-  s.cocoapods_version = '>= 1.4.0'
-
+  s.frameworks = 'Foundation'
+  s.swift_version = '5.0'
+  
 end
 

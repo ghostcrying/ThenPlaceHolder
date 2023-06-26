@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9E1E104029A49966006F81DB /* ThenPlaceHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1E103F29A49966006F81DB /* ThenPlaceHolder.swift */; };
-		9ECA14172967F941007D102E /* ThenPlaceHolder.h in Headers */ = {isa = PBXBuildFile; fileRef = 9ECA14162967F941007D102E /* ThenPlaceHolder.h */; };
+		9ECA14172967F941007D102E /* ThenPlaceHolder.h in Headers */ = {isa = PBXBuildFile; fileRef = 9ECA14162967F941007D102E /* ThenPlaceHolder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9ECA14192967F986007D102E /* ThenPlaceHolderDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECA14182967F986007D102E /* ThenPlaceHolderDelegate.swift */; };
 		9ECA141B2967FA21007D102E /* ThenPlaceHolderDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECA141A2967FA21007D102E /* ThenPlaceHolderDataSource.swift */; };
 		9ECA141F2967FC08007D102E /* ThenPlaceHolderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECA141E2967FC08007D102E /* ThenPlaceHolderView.swift */; };
@@ -227,7 +227,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -284,7 +284,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -319,6 +319,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.meta.ThenPlaceHolder;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -349,6 +352,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.meta.ThenPlaceHolder;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
