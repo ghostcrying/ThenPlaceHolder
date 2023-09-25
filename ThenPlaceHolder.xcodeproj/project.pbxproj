@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9E1E104029A49966006F81DB /* ThenPlaceHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1E103F29A49966006F81DB /* ThenPlaceHolder.swift */; };
+		9E4E980E2A6133A900068425 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9E4E980C2A6133A900068425 /* README.md */; };
 		9ECA14172967F941007D102E /* ThenPlaceHolder.h in Headers */ = {isa = PBXBuildFile; fileRef = 9ECA14162967F941007D102E /* ThenPlaceHolder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9ECA14192967F986007D102E /* ThenPlaceHolderDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECA14182967F986007D102E /* ThenPlaceHolderDelegate.swift */; };
 		9ECA141B2967FA21007D102E /* ThenPlaceHolderDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECA141A2967FA21007D102E /* ThenPlaceHolderDataSource.swift */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		9E1E103F29A49966006F81DB /* ThenPlaceHolder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThenPlaceHolder.swift; sourceTree = "<group>"; };
+		9E4E980C2A6133A900068425 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		9ECA140B2967F8ED007D102E /* ThenPlaceHolder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ThenPlaceHolder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ECA14162967F941007D102E /* ThenPlaceHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThenPlaceHolder.h; sourceTree = "<group>"; };
 		9ECA14182967F986007D102E /* ThenPlaceHolderDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThenPlaceHolderDelegate.swift; sourceTree = "<group>"; };
@@ -41,6 +43,7 @@
 		9ECA14012967F8ED007D102E = {
 			isa = PBXGroup;
 			children = (
+				9E4E980C2A6133A900068425 /* README.md */,
 				9ECA14152967F941007D102E /* Sources */,
 				9ECA140C2967F8ED007D102E /* Products */,
 			);
@@ -154,6 +157,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E4E980E2A6133A900068425 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
